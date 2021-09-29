@@ -1,0 +1,99 @@
+
+.block1{
+  display: flex;
+  flex-direction: column;
+  margin: 80px auto 30px;
+  align-items: center;
+
+}
+.wrapper{
+  width: 500px;
+  height: auto;
+  align-items: end;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-auto-rows: 100px;
+  text-align: center;
+}
+.wrapper2{
+  margin-top: 30px;
+  width:  500px;
+  height: auto;
+  align-items: end;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  grid-auto-rows: 70px;
+  text-align: center;
+}
+.wrapper3{
+  width: 300px;
+  height: auto;
+  align-items: start;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  grid-auto-rows: 120px;
+  text-align: left;
+}
+
+h3{
+  float: left;
+}
+.box3{
+  grid-column: 1/4;
+}
+.box4{
+  grid-column: 1/4;
+}
+.box7{
+  grid-column: 1/4;
+}
+.box8{
+  justify-self: start;
+}
+.box9{
+  justify-self: start;
+}
+.wide{
+  width: 500px;
+  height: 40px;
+  float: left;
+}
+.thin{
+  width: 235px;
+  height: 40px;
+}
+label{
+  float: left;
+  padding-top: 5px;
+}
+input{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  height: 35px;
+
+}
+label.email{
+}
+.btn-outline-success{
+  width: 140px;
+  height: 40px;
+  margin-left: 30px;
+  border-radius: 5px;
+  border-color: limegreen;
+  margin-top: 20px;
+}
+.OUTER{
+  text-align: left;
+}
+img{
+  margin-bottom: 20px;
+}

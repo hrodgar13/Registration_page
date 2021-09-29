@@ -1,0 +1,71 @@
+<div class="block1" xmlns="http://www.w3.org/1999/html">
+  <img src="https://www.red-carlos.com/img/Logo.png" alt="">
+<form (submit)="addUser(FN.value,LN.value,SA.value,SA2.value,C.value,SP.value,PZ.value,P.value,E.value)">
+
+<div class="wrapper">
+
+    <div class="box1">
+      <H3>Full Name *</H3>
+      <input type="text" id="FN" class="thin" #FN>
+      <label for="FN">First name</label>
+    </div >
+    <div class="box2">
+      <input type="text" id="LN" class="thin" #LN>
+      <label for="LN">Last name</label>
+    </div>
+</div>
+  <div class="wrapper2">
+    <div class="box3">
+      <H3>Address *</H3>
+      <input type="text" id="SA" class="wide" #SA>
+      <label for="SA">Street Address</label>
+    </div>
+    <div class="box4">
+      <input type="text" id="SA2" class="wide" #SA2>
+      <label for="SA2">Street Address Line 2</label>
+    </div>
+    <div class="box5">
+      <input type="text" id="C" class="thin" #C>
+      <label for="C">City</label>
+    </div>
+    <div class="box6">
+      <input type="text" id="SP" class="thin" #SP>
+      <label for="SP">State/Province</label>
+    </div>
+    <div class="box7">
+      <input type="text" id="PZ" class="wide" #PZ>
+      <label for="PZ">Postal/Zip Code</label>
+    </div>
+</div>
+  <div class="wrapper3">
+    <div class="box8">
+      <H3>Phone Number*</H3>
+      <input type="text" id="P" class="thin" #P placeholder="(000)000-0000">
+    </div>
+
+    <div class="box9">
+      <H3>E-mail *</H3>
+      <input type="text" id="E" class="thin" #E placeholder="ex:email@yahoo.com">
+      <label for="E" class="email">example@example.com</label>
+    </div>
+
+</div>
+  <hr>
+  <button type="submit" class="btn btn-outline-success">Submit</button>
+</form>
+  <div class="OUTER">
+    <ul>
+      <li *ngFor="let a of FNc">{{a}}</li>
+      <li *ngFor="let b of LNc">{{b}}</li>
+      <li *ngFor="let c of SAc">{{c}}</li>
+      <li *ngFor="let d of SA2c">{{d}}</li>
+      <li *ngFor="let e of Cc">{{e}}</li>
+      <li *ngFor="let f of SPc">{{f}}</li>
+      <li *ngFor="let g of PZc">{{g}}</li>
+      <li *ngFor="let h of Pc">{{h}}</li>
+      <li *ngFor="let i of Ec">{{i}}</li>
+
+
+    </ul>
+  </div>
+</div>
